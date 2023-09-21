@@ -1,5 +1,6 @@
 $(document).ready(function () {
     var nombre = localStorage.getItem("txtNombre");
+    let dedicador = "De Ronal Ortiz";
     if (nombre) {
         let nombreFinal = nombre.trim();
         if(nombre.trim().toUpperCase() === 'KEILA' ||
@@ -10,7 +11,7 @@ $(document).ready(function () {
             nombre.trim().toUpperCase() === 'CHOCHITA' ||
             nombre.trim().toUpperCase() === 'BELLA'){
             if(nombre.trim().toUpperCase() === 'BELLA'){
-                    $("#divDedicador").text("De Yorks Mendoza");
+                    dedicador = "De Yorks Mendoza"
                     nombreFinal = 'Mi Niña Hermosa';
             }else{
                     nombreFinal = 'Mi Chochita <3. TE AMO';
@@ -21,4 +22,5 @@ $(document).ready(function () {
     } else {
         $("#divNombre").text("Nombre no encontrado.");
     }
+    $("#divDedicador").text(dedicador);
 });
