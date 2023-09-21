@@ -24,7 +24,7 @@ $(document).ready(function () {
             txtNombre.trim().toUpperCase() === 'CHOCHITA'){
                 fraseFinal = "Amore <3 en cada pétalo de esta flor amarilla, hay un pedacito de mi amor por ti."
             }else{
-                let numeroAleatorio = Math.floor(Math.random() * listFrases.length) + 1;
+                let numeroAleatorio = Math.floor(Math.random() * listFrases.length);
                 fraseFinal = listFrases[numeroAleatorio];
             }
             
