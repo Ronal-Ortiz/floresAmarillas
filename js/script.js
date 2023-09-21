@@ -27,8 +27,10 @@ $(document).ready(function () {
                 let numeroAleatorio = Math.floor(Math.random() * listFrases.length) - 1;
                 if(numeroAleatorio < 0 || numeroAleatorio > 7){
                     fraseFinal = listFrases[0];
+                }else{
+                    fraseFinal = listFrases[numeroAleatorio];
                 }
-                fraseFinal = listFrases[numeroAleatorio];
+                    
             }
             
             Swal.fire({
