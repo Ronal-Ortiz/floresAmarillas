@@ -9,9 +9,9 @@ $(document).ready(function () {
             nombre.trim().toUpperCase() === 'TERE' ||
             nombre.trim().toUpperCase() === 'CHOCHA' ||
             nombre.trim().toUpperCase() === 'CHOCHITA' ||
-            nombre.trim().toUpperCase() === 'BELLA'){
-            if(nombre.trim().toUpperCase() === 'BELLA'){
-                    dedicador = "De Yorks Mendoza"
+            nombre.trim().toUpperCase() === 'JHOANA'){
+            if(nombre.trim().toUpperCase() === 'JHOANA'){
+                    dedicador = "De Yorsk Mendoza"
                     nombreFinal = 'Mi Niña Hermosa';
             }else{
                     nombreFinal = 'Mi Chochita <3. TE AMO';
