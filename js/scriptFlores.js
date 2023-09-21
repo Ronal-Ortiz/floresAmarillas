@@ -9,7 +9,7 @@ c$(document).ready(function () {
             nombre.trim().toUpperCase() === 'CHOCHA' ||
             nombre.trim().toUpperCase() === 'CHOCHITA' ||
             nombre.trim().toUpperCase() === 'BELLA'){
-            if(txtNombre.trim().toUpperCase() === 'BELLA'){
+            if(nombre.trim().toUpperCase() === 'BELLA'){
                     $("#divDedicador").text("De Yorks Mendoza");
                     nombreFinal = 'Mi Niña Hermosa';
             }else{
