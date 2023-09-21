@@ -1,4 +1,4 @@
-$(document).ready(function () {
+c$(document).ready(function () {
     var nombre = localStorage.getItem("txtNombre");
     if (nombre) {
         let nombreFinal = nombre.trim();
@@ -10,7 +10,7 @@ $(document).ready(function () {
             nombre.trim().toUpperCase() === 'CHOCHITA' ||
             nombre.trim().toUpperCase() === 'BELLA'){
             if(txtNombre.trim().toUpperCase() === 'BELLA'){
-                    $("#divNombre").text("De Yorks Mendoza");
+                    $("#divDedicador").text("De Yorks Mendoza");
                     nombreFinal = 'Mi Niña Hermosa';
             }else{
                     nombreFinal = 'Mi Chochita <3. TE AMO';
