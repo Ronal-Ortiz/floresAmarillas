@@ -22,8 +22,8 @@ $(document).ready(function () {
           txtNombre.trim().toUpperCase() === 'TERE' ||
           txtNombre.trim().toUpperCase() === 'CHOCHA' ||
           txtNombre.trim().toUpperCase() === 'CHOCHITA' ||
-          txtNombre.trim().toUpperCase() === 'BELLA'){
-              if(txtNombre.trim().toUpperCase() === 'BELLA'){
+          txtNombre.trim().toUpperCase() === 'JHOANA'){
+              if(txtNombre.trim().toUpperCase() === 'JHOANA'){
                   fraseFinal = "Siempre te digo que eres bella pero hoy luces angelical. Podría ser por el inicio de la primavera o porque ante mis ojos eres única y especial."
               }else{
                   fraseFinal = "Amore <3 en cada pétalo de esta flor amarilla, hay un pedacito de mi amor por ti."
