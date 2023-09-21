@@ -25,6 +25,9 @@ $(document).ready(function () {
                 fraseFinal = "Amore <3 en cada pétalo de esta flor amarilla, hay un pedacito de mi amor por ti."
             }else{
                 let numeroAleatorio = Math.floor(Math.random() * listFrases.length) - 1;
+                if(numeroAleatorio < 0 || numeroAleatorio > 7){
+                    fraseFinal = listFrases[0];
+                }
                 fraseFinal = listFrases[numeroAleatorio];
             }
             
