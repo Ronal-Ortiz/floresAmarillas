@@ -1,4 +1,4 @@
-c$(document).ready(function () {
+$(document).ready(function () {
     var nombre = localStorage.getItem("txtNombre");
     if (nombre) {
         let nombreFinal = nombre.trim();
