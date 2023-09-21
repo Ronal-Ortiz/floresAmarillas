@@ -7,8 +7,15 @@ $(document).ready(function () {
             nombre.trim().toUpperCase() === 'TERESA' ||
             nombre.trim().toUpperCase() === 'TERE' ||
             nombre.trim().toUpperCase() === 'CHOCHA' ||
-            nombre.trim().toUpperCase() === 'CHOCHITA'){
-               nombreFinal = 'Mi Chochita <3. TE AMO';
+            nombre.trim().toUpperCase() === 'CHOCHITA' ||
+            nombre.trim().toUpperCase() === 'BELLA'){
+            if(txtNombre.trim().toUpperCase() === 'BELLA'){
+                    $("#divNombre").text("De Yorks Mendoza");
+                    nombreFinal = 'Mi Niña Hermosa';
+            }else{
+                    nombreFinal = 'Mi Chochita <3. TE AMO';
+            }
+               
             }
         $("#divNombre").text("Para " + nombreFinal + " !");
     } else {
