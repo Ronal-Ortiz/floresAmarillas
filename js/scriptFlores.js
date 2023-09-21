@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    //---code
     var nombre = localStorage.getItem("txtNombre");
     let dedicador = "De Ronal Ortiz";
     if (nombre) {
